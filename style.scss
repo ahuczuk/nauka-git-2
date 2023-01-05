@@ -18,3 +18,61 @@ body {
     margin: 0 auto;
     padding: 20px 20px;
 }
+/* Navigation */
+
+.navigation {
+    color: #fff;
+    padding: 12px 0;
+    background: #00b894; 
+  }
+  
+  .navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none; 
+  }
+  
+  .navigation li {
+    display: inline-block;
+    position: relative;
+    margin: 0 36px 0 0; 
+  }
+  
+  .navigation li:hover ul {
+    display: block; 
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #fff; 
+  }
+  
+  .navigation a:hover {
+    color: #2d3436; 
+  }
+  
+  .navigation ul ul li {
+    display: block;
+    margin: 0 0 12px 0; 
+  }
+  
+  .navigation ul ul {
+    display: none;
+    background: #ffffff;
+    left: 50%;
+    transform: translateX(-50%); 
+  }
+  
+  .navigation li:hover ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: absolute; 
+  }
+  
+  .navigation ul ul a {
+    display: block;
+    padding: 0 24px;
+    color: #00b894; 
+  }
+  
